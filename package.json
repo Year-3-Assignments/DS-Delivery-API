@@ -1,0 +1,21 @@
+{
+  "name": "ds-project-delivery-api",
+  "version": "1.0.0",
+  "description": "API for delviery service in ShopaFy",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "2021_REG_WE_14",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
