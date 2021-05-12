@@ -22,6 +22,7 @@ mongoose.connect(MONGO_URI, {
 });
 
 require('./plugins/delivery-services/index')(app);
+require('./plugins/deliveries/index')(app);
 
 app.route('/').get((req, res) => {
   res.send('<h4>Welcome to ShopaFy Deliver API by REG_WE_14</h4>');
