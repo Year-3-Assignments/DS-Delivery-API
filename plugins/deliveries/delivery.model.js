@@ -7,8 +7,6 @@ const delivery = mongoose.Schema({
   destinationAddress1: { type: String, required: true, trim: true },
   destinationAddress2: { type: String, required: true, trim: true },
   destinationCity: { type: String, required: true, trim: true },
-  destinationCountry: { type: String, required: true, trim: true },
-  destinationZipCode: { type: Number, required: true, trim: true },
   customerId: { type: Number, required: true, trim: true },
   customerPhone: { type: String, required: true, trim: true, maxlength: 10 },
   customerEmail: { type: String, required: true, trim: true },
